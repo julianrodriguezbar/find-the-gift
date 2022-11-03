@@ -46,6 +46,8 @@ function setCanvasSize (){
     canvas.setAttribute('Height',canvasSize);
 
     elementSize= canvasSize/10;
+    playerPosition.x=undefined;
+    playerPosition.y=undefined;
     startGame();
 }
 
